@@ -50,4 +50,4 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 ln -sf ~/dotfiles/vim ~/.vim
-ln -sf ~/dotfiles/vimrc ~/.vimrc
+ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
