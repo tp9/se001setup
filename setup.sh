@@ -29,6 +29,12 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 # Install vim
 sudo apt-get install -y vim
 
+# Install rlwrap. Required for node in tmux
+sudo apt-get install -y rlwrap
+
+# Install node
+sudo apt-get install -y nodejs
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
