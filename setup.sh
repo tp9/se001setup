@@ -43,7 +43,11 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
+
+# Install the dotfiles folder
 git clone git@github.com:wokumura/dotfiles.git
+
+# Create the symlinks
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
