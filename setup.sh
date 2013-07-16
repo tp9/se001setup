@@ -29,6 +29,9 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 # Install vim
 sudo apt-get install -y vim
 
+# Install tmux
+sudo apt-get install -y tmux
+
 # Install rlwrap. Required for node in tmux
 sudo apt-get install -y rlwrap
 
