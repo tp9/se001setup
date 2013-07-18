@@ -38,6 +38,9 @@ sudo apt-get install -y rlwrap
 # Install node
 sudo apt-get install -y nodejs
 
+# Install gnome desktop
+sudo apt-get install -y gnome-session-fallback
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
