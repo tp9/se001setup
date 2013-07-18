@@ -3,7 +3,7 @@ setup.git
 Prereq: submit ssh key to GitHub
 ```sh
 ssh-keygen -t rsa -C “email_address”
-cat id_rsa.pub
+cat .ssh/id_rsa.pub
 ```
 
 Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
