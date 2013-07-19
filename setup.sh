@@ -26,8 +26,8 @@ sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
-# Install vim
-sudo apt-get install -y vim
+# Install vim-nox
+sudo apt-get install -y vim-nox
 
 # Install tmux
 sudo apt-get install -y tmux
