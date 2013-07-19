@@ -31,6 +31,7 @@ sudo apt-get install -y vim-nox
 
 # Install ruby for command-t
 sudo apt-get install -y ruby1.8
+sudo apt-get install -y ruby-dev
 
 # Install tmux
 sudo apt-get install -y tmux
