@@ -26,6 +26,10 @@ sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
+# Install vim and vorax preparation
+sudo apt-get install -y vim-nox
+sudo apt-get install libssl-dev libxslt-dev libxml2-dev gcc make ncurses-dev ruby1.9 ruby-dev mercurial rubygems1.9 ruby-odbc-dbg ruby-odbc libgdal1-1.7.0 odbcinst1debian2
+
 # Install tmux
 sudo apt-get install -y tmux
 
@@ -60,3 +64,4 @@ ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
 ln -sb dotfiles/.tmux.conf ~
 ln -sb dotfiles/.gitconfig ~
+ln -s /usr/bin/ruby1.9 /usr/bin/ruby
