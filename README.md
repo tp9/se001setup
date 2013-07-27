@@ -12,6 +12,7 @@ follows:
 
 ```sh
 cd $HOME
+sudo apt-get update
 sudo apt-get install -y git-core
 git clone https://github.com/wokumura/se001setup.git
 ./se001setup/setup.sh   
