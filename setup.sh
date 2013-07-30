@@ -42,6 +42,10 @@ sudo apt-get install -y nodejs
 # Install gnome desktop
 sudo apt-get install -y gnome-session-fallback
 
+# Required for Android SDK development
+sudo apt-get install -y default-jre
+sudo apt-get install -y ia32-libs # Required for 64-bit systems
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
