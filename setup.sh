@@ -56,7 +56,7 @@ if [ -d .emacs.d/ ]; then
 fi
 
 # Install the dotfiles folder
-git clone git@github.com:wokumura/dotfiles.git
+git clone git@github.com:tp9/dotfiles.git
 
 # Create the symlinks
 ln -sb dotfiles/.screenrc .
