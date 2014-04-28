@@ -14,7 +14,7 @@ follows:
 cd $HOME
 sudo apt-get update
 sudo apt-get install -y git-core
-git clone https://github.com/wokumura/se001setup.git
+git clone https://github.com/tp9/se001setup.git
 ./se001setup/setup.sh   
 ```
 
